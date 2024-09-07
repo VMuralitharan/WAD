@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="sub-header">
+      <nav>
+        <h1 style="color: rgb(235, 44, 44);">Northern Uni</h1>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Cetificate & Online Programs for 2024 </h1>
+    </section>
+
+    <!--blog page content-->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./images/blog.jpg" alt="">
+          <h2>Our Certificate & Online Programs For 2024</h2>
+          <p>Our Certificate & Online Programs for 2024 offer unmatched flexibility, allowing you to learn at your own pace from anywhere in the world. Whether you’re a working professional or a student looking to upskill, our programs are designed to fit seamlessly into your schedule. With part-time, full-time, and self-paced options, you can balance your studies with other responsibilities while gaining valuable qualifications.</p>
+          <br>
+          <p>Stay ahead in today’s competitive job market with courses that are tailored to meet the demands of industries. Our 2024 programs cover a wide range of fields, including Business Analytics, Digital Marketing, Cybersecurity, and Project Management. Each course is designed by experts to ensure you gain practical, hands-on knowledge that can be immediately applied in real-world scenarios.</p>
+          <br>
+          <p>Learn from the best in the field with our highly qualified faculty who bring both academic excellence and industry experience to the table. Alongside course instruction, students will benefit from one-on-one mentorship, offering personalized guidance and support throughout their learning journey. This mentorship helps you better navigate the material and opens doors to networking and career growth</p>
+          <br>
+          <p>Our certificate and online programs are not only about learning new skills—they are about positioning yourself for success. Upon completion, you’ll receive recognized certifications that boost your resume and enhance your career prospects. Whether you’re looking to advance in your current job or transition to a new field, our 2024 programs will equip you with the credentials and confidence to succeed.</p>
+        
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Mail">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">Post Comment</button>
+            </form>
+          </div>
+        
+        
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analitycs</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Digital Marketing</span>
+            <span>10</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Project Management </span>
+            <span>08</span>
+          </div>
+          <div>
+            <span>Financial Management</span>
+            <span>16</span>
+          </div>
+          <div>
+            <span>Sustainability Studies</span>
+            <span>03</span>
+          </div>
+          <div>
+            <span>Leadership Development </span>
+            <span>07</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--end-->
+
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Follow us for more details</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
